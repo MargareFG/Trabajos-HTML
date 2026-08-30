@@ -75,3 +75,19 @@ button:hover, input[type="submit"]:hover {
     border-radius: 6px;
     box-shadow: 0 0 12px rgba(0, 247, 255, 0.4);
 }
+
+.btn-link {
+    display: inline-blok;
+    color: #ff007f;
+    border: 1px solid #ff007f;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.btn-link:hover {
+    background-color: #ff007f;
+    color: #0b0c10;
+    box-shadow: 0 0 10px #ff007f;
+}
