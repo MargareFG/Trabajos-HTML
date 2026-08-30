@@ -1,0 +1,77 @@
+/* Importar fuente futurista desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&display=swap');
+
+/* Fondo oscuro general */
+body {
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezados Cyberpunk con Neón Cyan */
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00f7ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px rgba(0, 247, 255, 0.6);
+}
+
+/* Tarjetas de Contenido estilo Interfaz */
+.card, .auth-section {
+    background: rgba(31, 40, 51, 0.85);
+    border: 1px solid #00f7ff;
+    box-shadow: 0 0 15px rgba(0, 247, 255, 0.2), inset 0 0 10px rgba(0, 247, 255, 0.1);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Formulario e Inputs Neón Pink */
+input[type="email"], input[type="password"], input[type="text"] {
+    background-color: #0b0c10;
+    border: 1px solid #ff007f;
+    color: #00f7ff;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #ff007f;
+}
+
+/* Botones Neón */
+button, input[type="submit"] {
+    background: transparent;
+    border: 2px solid #ff007f;
+    color: #ff007f;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 0 5px #ff007f;
+    transition: 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ff007f;
+    color: #0b0c10;
+    box-shadow: 0 0 20px #ff007f;
+}
+
+/* Imagen del Horario con Marco Neón */
+.image-wrapper img {
+    max-width: 100%;
+    border: 2px solid #00f7ff;
+    border-radius: 6px;
+    box-shadow: 0 0 12px rgba(0, 247, 255, 0.4);
+}
