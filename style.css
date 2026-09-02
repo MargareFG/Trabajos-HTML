@@ -71,14 +71,14 @@ button:hover, input[type="submit"]:hover {
 /* Imagen del Horario con Marco Neón */
 .image-wrapper img {
     float:right;
-    max-width: 45%;
-    max-width: 300px;
+    max-width: 30%;
+    max-width: 60px;
     height: auto;
     margin-left: 20px;
     margin-bottom: 15px;
     border: 2px solid #00f7ff;
     border-radius: 6px;
-    box-shadow: 0 0 12px rgba(0, 247, 255, 0.4);
+    box-shadow: 0 0 12px rgba(25, 78, 80, 0.4);
 }
 
 .card:after {
